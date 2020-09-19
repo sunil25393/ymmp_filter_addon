@@ -1,0 +1,724 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+.name-tires .search-for-tires {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    float: initial
+}
+
+.name-tires .search-for-tires h2 {
+    background: #747373;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px 0
+}
+
+.name-tires .search-for-tires .search-module {
+    float: left;
+    border: 0px;
+    border-radius: 0px;
+    background: #dedede;
+    min-height: 440px
+}
+
+@media (max-width: 767px) {
+    .name-tires .search-for-tires .search-module {
+        padding-bottom: 20px
+    }
+}
+
+.name-tires .search-for-tires .search-module label {
+    display: none
+}
+
+.name-tires .search-for-tires .search-module select,
+.name-tires .search-for-tires .search-module input[type="text"] {
+    background: white;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: none;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 2px 2px 1px 0px #959494;
+    -moz-box-shadow: 2px 2px 1px 0px #959494;
+    box-shadow: 2px 2px 1px 0px #959494
+}
+
+.name-tires .search-for-tires .search-module #m233-platenum .search-area {
+    padding: 0px;
+    width: 100%
+}
+
+.name-tires .search-for-tires .search-module #m233-platenum .search-area select,
+.name-tires .search-for-tires .search-module #m233-platenum .search-area input {
+    width: 100%
+}
+
+.name-tires .search-for-tires .search-module #m233-platenum .search-button {
+    width: 100%
+}
+
+.search-widget {
+    margin-top: -565px;
+    height: 565px
+}
+
+.search-widget .module-177 {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 65px
+}
+
+.search-widget .module-177 .module-177-tabs div,
+.search-widget .module-177 .module-177-tabs section {
+    overflow: initial !important
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs {
+    border: 0px;
+    border-radius: 0px;
+    background: #dedede;
+    float: right;
+    width: 50%
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs>img {
+    position: absolute;
+    top: -15px;
+    left: -70px;
+    z-index: 100
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs ul {
+    background: none;
+    border-radius: 0px;
+    border: none
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs ul li {
+    background: none;
+    border-radius: 0px;
+    border: 0px
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs ul li:nth-child(1),
+.search-widget .module-177 .module-177-tabs #search-tabs ul li:nth-child(2) {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 0px
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs ul li:nth-child(3) {
+    width: 100%;
+    font-size: 14px;
+    text-align: center
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs ul li.ui-tabs-active {
+    background: #747373
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs ul li.ui-tabs-active a {
+    color: white
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs ul li a {
+    width: 100%
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs section {
+    background: none;
+    border: 0px;
+    padding-bottom: 65px
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs section form .search {
+    overflow: initial
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs section form select,
+.search-widget .module-177 .module-177-tabs #search-tabs section form input[type="text"] {
+    background: white;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: 2px 2px 1px 0px #959494;
+    -moz-box-shadow: 2px 2px 1px 0px #959494;
+    box-shadow: 2px 2px 1px 0px #959494
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs section#m177-platenum form .search-module-wrapper .search-area input,
+.search-widget .module-177 .module-177-tabs #search-tabs section#m177-platenum form .search-module-wrapper .search-area select {
+    margin-bottom: 15px;
+    width: 100%;
+    -webkit-box-shadow: 2px 2px 1px 0px #959494;
+    -moz-box-shadow: 2px 2px 1px 0px #959494;
+    box-shadow: 2px 2px 1px 0px #959494
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs .module-177-filter-wrapper {
+    width: 30%;
+    float: left;
+    border-right: 5px solid transparent;
+    overflow: initial
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs .module-177-filter-wrapper .module-177-location-filter {
+    overflow: initial
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs .module-177-filter-wrapper .module-177-location-filter input[type="text"] {
+    -webkit-box-shadow: 2px 2px 1px 0px #959494;
+    -moz-box-shadow: 2px 2px 1px 0px #959494;
+    box-shadow: 2px 2px 1px 0px #959494;
+    width: 100%
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs .module-177-filter-wrapper .module-177-location-filter p,
+.search-widget .module-177 .module-177-tabs #search-tabs .module-177-filter-wrapper .module-177-location-filter #useLocation {
+    display: none
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs #m177-search-vehicle-submit,
+.search-widget .module-177 .module-177-tabs #search-tabs #m177-searchsize-submit,
+.search-widget .module-177 .module-177-tabs #search-tabs #m177-searchplate-submit-area {
+    width: 70%;
+    margin: 0px;
+    float: left
+}
+
+.search-widget .module-177 .module-177-tabs #search-tabs #m177-search-vehicle-submit input,
+.search-widget .module-177 .module-177-tabs #search-tabs #m177-searchsize-submit input,
+.search-widget .module-177 .module-177-tabs #search-tabs #m177-searchplate-submit-area input {
+    border: 0px;
+    border-radius: 0px
+}
+
+@media (max-width: 767px) {
+    .search-widget {
+        margin-top: initial;
+        height: initial;
+        width: 100%;
+        float: left;
+        padding: 0 15px;
+        margin: 20px 0
+    }
+    .search-widget .module-177 {
+        padding-top: initial;
+        width: 100%;
+        float: left
+    }
+    .search-widget .module-177 #search-tabs {
+        width: 100% !important;
+        float: left !important
+    }
+}
+
+#search-widgets #show-plate-on-vehicle,
+#search-widgets #show-plate-on-size {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+#search-widgets #show-plate-on-vehicle>a,
+#search-widgets #show-plate-on-size>a {
+    font-size: 14px
+}
+
+#search-widgets #show-plate-on-vehicle>a:hover,
+#search-widgets #show-plate-on-size>a:hover {
+    text-decoration: none;
+    color: black
+}
+
+#search-widgets #show-plate-on-vehicle>a span,
+#search-widgets #show-plate-on-size>a span {
+    color: #d40000;
+    font-weight: bold
+}
+
+#search-widgets #show-plate-on-vehicle>a span:hover,
+#search-widgets #show-plate-on-size>a span:hover {
+    text-decoration: underline
+}
+
+#search-widgets #show-plate-on-vehicle>a:before,
+#search-widgets #show-plate-on-size>a:before {
+    content: url(https://www.r2cthemes.com/onlinetires/i/license.jpg);
+    display: inline-block;
+    vertical-align: -11px;
+    padding-right: 5px
+}
+
+#search-widgets #plate-widget-on-vehicle p:nth-child(1),
+#search-widgets #plate-widget-on-vehicle p:nth-child(2),
+#search-widgets #plate-widget-on-size p:nth-child(1),
+#search-widgets #plate-widget-on-size p:nth-child(2) {
+    width: 50%;
+    float: left;
+    display: inline-block
+}
+
+@media (max-width: 767px) {
+    #search-widgets #plate-widget-on-vehicle p:nth-child(1),
+    #search-widgets #plate-widget-on-vehicle p:nth-child(2),
+    #search-widgets #plate-widget-on-size p:nth-child(1),
+    #search-widgets #plate-widget-on-size p:nth-child(2) {
+        width: 100%
+    }
+}
+
+#search-widgets #plate-widget-on-vehicle p:nth-child(1) select,
+#search-widgets #plate-widget-on-vehicle p:nth-child(1) input,
+#search-widgets #plate-widget-on-vehicle p:nth-child(2) select,
+#search-widgets #plate-widget-on-vehicle p:nth-child(2) input,
+#search-widgets #plate-widget-on-size p:nth-child(1) select,
+#search-widgets #plate-widget-on-size p:nth-child(1) input,
+#search-widgets #plate-widget-on-size p:nth-child(2) select,
+#search-widgets #plate-widget-on-size p:nth-child(2) input {
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    #search-widgets #plate-widget-on-vehicle p:nth-child(1),
+    #search-widgets #plate-widget-on-size p:nth-child(1) {
+        padding-right: 5px
+    }
+}
+
+@media (min-width: 768px) {
+    #search-widgets #plate-widget-on-vehicle p:nth-child(2),
+    #search-widgets #plate-widget-on-size p:nth-child(2) {
+        padding-left: 5px
+    }
+}
+
+
+@media (max-width: 767px) {
+    #search-widgets {
+        margin: 15px 0
+    }
+}
+
+#search-widgets>.nav-tabs {
+    width: 100%
+}
+
+#search-widgets>.nav-tabs li {
+    margin: 0px;
+    padding: 0px
+}
+
+@media (max-width: 767px) {
+    #search-widgets>.nav-tabs li {
+        width: 50% !important
+    }
+}
+
+#search-widgets>.nav-tabs li a {
+    border: 0px !important;
+    border-radius: 0px;
+    color: white!important;
+    background: #747373;
+    font-size: 13px;
+    outline: none;
+}
+
+#search-widgets>.nav-tabs li a span {
+    font-size: 16px;
+    display: block;
+    width: 100%
+}
+
+@media (max-width: 438px) {
+    #search-widgets>.nav-tabs li a span {
+        font-size: 14px
+    }
+}
+
+#search-widgets>.nav-tabs li.active a {
+    background: none;
+    color: #5d5d5f !important
+}
+
+#search-widgets>.tab-content {
+    padding: 15px 15px 60px 15px
+}
+
+#search-widgets {
+    width: 100%;
+    background: #dedede
+}
+
+@media (min-width: 992px) {
+    #search-widgets {
+        max-width: 500px
+    }
+}
+
+@media (max-width: 991px) {
+    #search-widgets {
+        max-width: 400px
+    }
+}
+
+@media (max-width: 767px) {
+    #search-widgets {
+        max-width: initial
+    }
+}
+
+@media (min-width: 768px) {
+    #search-widgets {
+        float: right
+    }
+}
+
+#search-widgets select,
+#search-widgets input[type="text"] {
+    background: white;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: 2px 2px 1px 0px #959494;
+    -moz-box-shadow: 2px 2px 1px 0px #959494;
+    box-shadow: 2px 2px 1px 0px #959494;
+    font-size: 16px;
+    font-weight: 600
+}
+
+#search-widgets #platenumber-search {
+    margin: 10px 0
+}
+
+#search-widgets #platenumber-search p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px
+}
+
+#search-widgets #platenumber-search input[type="button"] {
+    margin-top: 10px
+}
+
+#search-widgets #platenumber-search input[type="text"] {
+    margin-right: 1%
+}
+
+#search-widgets #platenumber-search input[type="text"],
+#search-widgets #platenumber-search select {
+    width: 49.5%;
+    display: inline-block;
+    float: left;
+    position: relative
+}
+
+#search-widgets #vehicle-widget button:nth-child(5) {
+    display: none
+}
+
+#search-widgets #size-widget button:nth-child(4) {
+    display: none
+}
+
+#search-widgets #size-widget button:nth-child(5) {
+    box-shadow: none;
+    background: none;
+    color: #d40000
+}
+
+#search-widgets #size-widget button:nth-child(5):before {
+    font-family: 'Font Awesome 5 Pro';
+    content: '\f055'
+}
+
+#search-widgets #vehicle-widget>button,
+#search-widgets #size-widget>button {
+    background: white;
+    border-radius: 0px;
+    color: black;
+    border: 0px;
+    text-align: left;
+    box-shadow: none;
+    height: 40px;
+    margin: 0 0 10px 0;
+    -webkit-box-shadow: 2px 2px 1px 0px #959494;
+    -moz-box-shadow: 2px 2px 1px 0px #959494;
+    box-shadow: 2px 2px 1px 0px #959494;
+    opacity: 1
+}
+
+#search-widgets #vehicle-widget .zips input[type="text"],
+#search-widgets #size-widget .zips input[type="text"] {
+    width: 49.5%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-right: 1%
+}
+
+#search-widgets #vehicle-widget .zips>a,
+#search-widgets #size-widget .zips>a {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 49.5%;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #d40000;
+    text-align: center;
+    padding: 10px 15px
+}
+
+#search-widgets .modal-dialog {
+    width: 100%;
+    max-width: 800px;
+    height: 100%
+}
+
+@media (max-width: 767px) {
+    #search-widgets .modal-dialog {
+        height: auto
+    }
+}
+
+@media (max-width: 767px) {
+    #search-widgets .modal-dialog {
+        width: initial;
+        max-width: initial;
+        margin: 0;
+        border: none
+    }
+    #search-widgets .modal-dialog .modal-content {
+        border: 0px;
+        border-radius: 0px;
+        height: 100%
+    }
+}
+
+#search-widgets .modal-dialog .modal-header .modal-title {
+    width: initial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left
+}
+
+#search-widgets .modal-dialog .modal-header button {
+    width: initial;
+    float: right;
+    opacity: .5
+}
+
+#search-widgets .modal-dialog .modal-header button:hover {
+    background: none;
+    font-size: 21px;
+    opacity: 1
+}
+
+#search-widgets .modal-dialog .modal-body {
+    float: left;
+    width: 100%
+}
+
+#search-widgets .modal-dialog .modal-body .nav-tabs li {
+    width: initial;
+    display: inline-block !important
+}
+
+#search-widgets .modal-dialog .modal-body #zip #zip-code {
+    border: 1px solid #ccc;
+    float: left
+}
+
+#search-widgets .modal-dialog .modal-body #zip span {
+    float: left;
+    width: 100%;
+    display: block;
+    margin: 15px 0 0 0
+}
+
+#search-widgets .modal-dialog .modal-body #zip a {
+    display: none;
+    float: left;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #d40000;
+    text-align: center;
+    padding: 10px 15px
+}
+
+#search-widgets .modal-dialog .modal-body #rear label {
+    width: 100%;
+    font-size: 14px
+}
+
+#search-widgets .modal-dialog .modal-body #rear select {
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%
+}
+
+#search-widgets .modal-dialog .modal-body #rear .rear-param {
+    width: 33.3%;
+    float: left
+}
+
+#search-widgets .modal-dialog .modal-body .tab-content {
+    padding: 15px 0
+}
+
+#search-widgets .modal-dialog .modal-body .tab-content .filter input {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 10px 0
+}
+
+#search-widgets .modal-dialog .modal-body .tab-content .param {
+    width: 24.5%;
+    color: #424244;
+    border: 1px solid #424244;
+    padding: 10px 15px;
+    line-height: initial;
+    background: none;
+    margin-bottom: 5px;
+    white-space: normal;
+    word-break: break-word
+}
+
+@media (max-width: 767px) {
+    #search-widgets .modal-dialog .modal-body .tab-content .param {
+        width: 49%
+    }
+}
+
+@media (max-width: 540px) {
+    #search-widgets .modal-dialog .modal-body .tab-content .param {
+        width: 100%
+    }
+}
+
+#search-widgets .modal-dialog .modal-body .tab-content .param:hover {
+    background: #d40000;
+    color: white;
+    border: 0px
+}
+
+#search-widgets .modal-dialog .modal-footer button {
+    border-radius: 0px;
+    background: #d40000
+}
+
+#search-widgets .modal-dialog .modal-footer button:hover {
+    background: #ff1019
+}
+
+
+
+#search-widgets #vehicle-widget>button,#search-widgets #size-widget>button{
+    width: 100%;
+    padding: 8px 20px;
+}
+#search-widgets .nav-tabs{
+    display: flex;
+    border: 0;
+}
+#search-widgets .nav-tabs li{
+    width: 100%;
+    text-align: center;
+}
+#search-widgets > .nav-tabs li a{
+    margin-right: 0!important;
+}
+#search-widgets .nav-tabs li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 0;
+    border: 1px solid #000;
+    color: #000;
+    margin-right: 15px;
+}
+#search-widgets .modal-dialog .modal-body .nav-tabs li.hidden{
+    display:none!important;
+}
+#search-widgets .modal-dialog .nav-tabs li.active a {
+    background: #00192a;
+    color: #fff !important;
+}
+#search-widgets .modal-dialog .nav-tabs li a:hover, #search-widgets .modal-dialog .nav-tabs li a:focus{
+    background: #00192a;
+    color: #fff !important;
+}
+#search-widgets .modal-dialog .modal-body .tab-content .filter input{
+    outline: none;
+    box-shadow: none;
+}
+#search-widgets .modal-dialog .modal-header button{
+    background: transparent;
+    color: #000;
+    padding: 0;
+    font-size: 21px;
+}
+.woo-vpf-ymm-field.disabled{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.disabled{
+    cursor: not-allowed;
+    opacity: 0.4!important;
+}
+.widget-woo-vpf-ymm-filter .tab-content .woo-vpf-ymm-field label{
+    width: 24%;
+    color: #424244;
+    border: 1px solid #424244;
+    padding: 10px 15px;
+    line-height: initial;
+    background: none;
+    margin-bottom: 5px;
+    white-space: normal;
+    word-break: break-word;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 1%;
+}
+.widget-woo-vpf-ymm-filter .tab-content .woo-vpf-ymm-field label:hover, .widget-woo-vpf-ymm-filter .tab-content .woo-vpf-ymm-field label.active{
+    background: #d40000;
+    color: white;
+    border: 1px solid transparent;
+}
+.widget-woo-vpf-ymm-filter .tab-content .woo-vpf-ymm-field label input{
+    display: none; 
+}
+.woo-vpf-ymm-filter-vertical .woo-vpf-ymm-field{
+    display: table!important;
+    width: 100%;
+}
+#search-widgets .modal-dialog .modal-body #zip #zip-code{
+    box-shadow: none;
+    outline: none;
+}
+.woo-vpf-ymm-field input[type="submit"]{
+    border-radius: 0px;
+    background: #d40000;
+    padding: 10px 20px;
+    width: 100%!important;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
